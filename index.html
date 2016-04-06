@@ -14,7 +14,7 @@
     <input type="text" id="first-name" placeholder="Enter your first name"autofocus>
     <br/>
     <label for="last-name">Enter your last name</label>
-    <input type="text" id="last-name">
+    <input type="text" id="last-name" placeholder="Enter your last name"autofocus>>
     <br/>
     <label for="street-address">Enter your street address</label>
     <input type="text" id="street-address" placeholder="123 Main St.">
@@ -29,7 +29,7 @@
     <input type="url" id="favorite-url" placeholder="www.facebook.com">
     <br/>
     <label for="favorite-color">Enter your favorite color</label>
-    <input id="favorite-color" type="color" value="#ff8800">
+    <input id="favorite-color" type="color" value="#6666666">
   </fieldset>
 
   <fieldset>
@@ -63,28 +63,30 @@
     <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Howdy, Megan">Where am I</textarea>
   </fieldset>
 
-  <label for="feedback-type">Comment type</label>
-  <select id="feedback-type" name="type">
-    <option>Bug report</option>
-    <option>Praise</option>
-    <option>Feature request</option>
+  <label for="loan-type">Type of Loan</label>
+  <select id="loan-type" name="type">
+    <option>Commercial</option>
+    <option>Real Estate</option>
+    <option>Personal</option>
+    <option>Mortgage</option>
   </select>
 
   <fieldset>
     <legend>Which product are you using</legend>
 
-    <input type="radio" name="product-type" value="word"> Word
-    <input type="radio" name="product-type" value="excel"> Excel
-    <input type="radio" name="product-type" value="powerpoint"> Powerpoint
+    <input type="radio" name="loan-length" value="five-years"> 5 years
+    <input type="radio" name="loan-length" value="fifteen-years"> 15 years
+    <input type="radio" name="loan-length" value="thirty-years"> 30 years
   </fieldset>
 
   <fieldset>
-    <legend>What type of customer are you?</legend>
+    <legend>Special Conditions</legend>
 
-    <input type="checkbox" name="student" value="student"> Student
-    <input type="checkbox" name="advanced" value="advanced"> Advanced User
-    <input type="checkbox" name="groundhog" value="whistlepig"> Groundhog
-  </fieldset>
+    <input type="checkbox" name="down-payment" value="down-payment"> Down Payment
+    <input type="checkbox" name="out-of-state-resident" value="out-of-state-resident"> Out of State Resident
+    <input type="checkbox" name="married" value="married"> Married
+    <input type="checkbox" name="co-signed" value="co-signed"> Loan will be co-signed
+ </fieldset>
 
   <fieldset>
     <legend>Credentials</legend>
